@@ -76,7 +76,6 @@ body {
     width: calc(100% - 7.5rem);
     height: 100vh;
     background-color: #FFFFFF;
-    margin-left: 7.5rem;
 }
 
 .Cards_Container {
