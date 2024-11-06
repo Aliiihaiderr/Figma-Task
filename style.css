@@ -22,7 +22,6 @@ body {
     background-color: #E2EEEE;
     padding: 0;
     margin: 0;
-    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
