@@ -21,6 +21,10 @@
     z-index: 1;
 }
 
+ul li > a{
+    border: 1px solid #E2EEEE;
+    border-radius: 8px;
+}
 ul li a.active{
     background-color: #EBE9FF;
     border: 1px solid #7C5BFF;
@@ -84,7 +88,6 @@ ul li > a:not(.active):hover{
     background-color: #FFFFFF;
     display: flex;
     height: 100vh;
-    align-items: center;
     flex-direction: column;
     margin-left: 7.5rem;
 }
@@ -95,7 +98,7 @@ ul li > a:not(.active):hover{
     border: 1px solid #C9C7FF;
     display: flex;
     border-radius: 0.5rem;
-    margin-top: 5.688rem;
+    margin: 5.688rem auto;
 }
 
 .plan {
@@ -192,15 +195,15 @@ span{
     margin-right: 12px;
 }
 .all-users{
-    margin-top: 127px;
+    margin: 127px auto;
 }
 .users {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     margin-top: 13px;
     max-width: 60vw;
-    width: 80vh;
-    max-height: 200px;
+    width: 60vw;
+    min-height: 200px;
     overflow-x: scroll;
 }
 
@@ -212,6 +215,7 @@ span{
     gap: 6px;
     display: flex;
     align-items: center;
+    max-height: 100%;
 }
 .grid-item:nth-child(-n+6) {
     background-color: #F6F8FA;
